@@ -111,7 +111,7 @@ func DecodeConfig(r io.Reader) (cfg image.Config, err error) {
 }
 
 func init() {
-	image.RegisterFormat("tga", "", Decode, DecodeConfig)
+	image.RegisterFormat("tga", "???\x00\x00???\x00\x00", Decode, DecodeConfig)
 }
 
 // applyExtensions reads extensions section (if it exists) and parses attribute type.
