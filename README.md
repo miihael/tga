@@ -13,11 +13,11 @@ or `image.NRGBA`. Other types are converted to `image.NRGBA` prior to encoding.
 
 ## Installation
 
-    $ go get github.com/ftrvxmtrx/tga
+    $ go get github.com/miihael/tga@master
 
 ## Documentation and examples
 
-[tga on godoc.org](http://godoc.org/github.com/ftrvxmtrx/tga)
+[tga on godoc.org](http://godoc.org/github.com/miihael/tga)
 
 ## License
 
